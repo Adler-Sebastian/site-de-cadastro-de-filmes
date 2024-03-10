@@ -25,7 +25,7 @@ td {
 }
 
 tr:nth-child(even), table.list thread> tr{
-    background-color: #fff;
+    background-color: #111;
 }
 
 input[type="text"],input[type="number"] {
@@ -59,7 +59,7 @@ input[type="reset"]:hover {
 }
 
 button {
-    background: #111;
+    background: #666;
     margin: 15px 0 10px;
     display: inline-block;
     border: none;
