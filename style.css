@@ -51,15 +51,16 @@ input[type="submit"],input[type="reset"] {
 }
 
 input[type="submit"]:hover {
-    background: green;
+    background: midnightblue;
 }
 
 input[type="reset"]:hover {
-    background: yellowgreen;
+    background: midnightblue;
 }
 
 button {
-    background: #666;
+    background: #111;
+    color: white;
     margin: 15px 0 10px;
     display: inline-block;
     border: none;
@@ -71,5 +72,5 @@ button {
 }
 
 button:hover {
-    background: yellowgreen;
+    background: midnightblue;
 }
