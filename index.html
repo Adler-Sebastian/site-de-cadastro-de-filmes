@@ -6,11 +6,11 @@
     <title>Site de cadastro de filmes</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> // 
     <table>
         <tr>
             <td>
-                <form>
+                <form autocomplete="off" onsubmit="noFormulario()">
                     <div>
                         <label for="nomeFilme">Nome do filme</label>
                         <input type="text" name="nomeFilme" id="nomeFilme">
@@ -31,10 +31,23 @@
                         <input type="number" name="notaFilme" id="notaFilme">
                     </div>
 
-                    <div>
+                    <div class="botoesCadastro">
                         <input type="submit" value="Enviar">
                         <input type="reset" value="Reiniciar">
                     </div>
+
+                    <td>
+                        <table class="lista" id="listaLocal">
+                            <thead>
+                                <tr>
+                                    <th>Nome do filme</th>
+                                    <th>Ano de lançamento</th>
+                                    <th>Diretor(a) do filme</th>
+                                    <th>Nota do filme</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </td>
                 </form>
             </td>
         </tr>
