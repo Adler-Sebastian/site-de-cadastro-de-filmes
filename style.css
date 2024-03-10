@@ -1,0 +1,75 @@
+body {
+    background-image: url(fundosite.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+table {
+    width: 80%;
+    margin: 45px auto;
+    background: white;
+}
+
+table.lista {
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #111;
+    text-align: left;
+    padding: 8px 20px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: #fff;
+}
+
+input[type="text"],input[type="number"] {
+    width: 90%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+
+input[type="submit"],input[type="reset"] {
+    background: #111;
+    color: white;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    padding: 6px 12px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background: green;
+}
+
+input[type="reset"]:hover {
+    background: yellowgreen;
+}
+
+button {
+    background: #111;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    padding: 6px 12px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: yellowgreen;
+}
