@@ -42,10 +42,10 @@ function inserirDados(dados) {
 // função para editar
 function editDados(td) {
     selectedRow = td.parentElement.parentElement;
-    document.getElementById('nomeFilme').value = selectRow.cells[0].innerHTML;
-    document.getElementById('anoFilme').value = selectRow.cells[1].innerHTML;
-    document.getElementById('direcaoFilme').value = selectRow.cells[2].innerHTML;
-    document.getElementById('notaFilme').value = selectRow.cells[3].innerHTML;
+    document.getElementById('nomeFilme').value = selectedRow.cells[0].innerHTML;
+    document.getElementById('anoFilme').value = selectedRow.cells[1].innerHTML;
+    document.getElementById('direcaoFilme').value = selectedRow.cells[2].innerHTML;
+    document.getElementById('notaFilme').value = selectedRow.cells[3].innerHTML;
     }
     
     function atualizarDados(dadosFormulario) {
