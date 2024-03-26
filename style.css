@@ -74,3 +74,18 @@ button {
 button:hover {
     background: midnightblue;
 }
+
+/** Visualização mediante celulares
+Optei pela retirada das caracteristicas pra deixar a visualização limpa
+Já sendo dispostos os dados de maneira intuitiva na tela conforme o cadastrado
+**/
+
+@media screen and (max-width: 600px){
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+    th {
+        display: none;
+    }
+}

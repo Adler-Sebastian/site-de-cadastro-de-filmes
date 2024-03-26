@@ -40,6 +40,7 @@ function inserirDados(dados) {
 }
 
 // função para editar
+// a utilização correta do selectedRow agora disponibiliza a edição
 function editDados(td) {
     selectedRow = td.parentElement.parentElement;
     document.getElementById('nomeFilme').value = selectedRow.cells[0].innerHTML;
